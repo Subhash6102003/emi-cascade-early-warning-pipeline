@@ -1,0 +1,28 @@
+{
+  "name": "systemflow-b2-emi-cascade",
+  "version": "1.0.0",
+  "description": "Event-sourced borrower telemetry and CQRS real-time Portfolio At Risk (PAR) projection to detect systemic default waves 25 days before bank bounces.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "event-sourcing",
+    "cqrs",
+    "fintech",
+    "credit-risk",
+    "streaming-pipeline",
+    "banking"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "@types/node": "^22.10.1"
+  }
+}
