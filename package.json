@@ -1,5 +1,5 @@
 {
-  "name": "systemflow-b2-emi-cascade",
+  "name": "emi-cascade-early-warning-pipeline",
   "version": "1.0.0",
   "description": "Event-sourced borrower telemetry and CQRS real-time Portfolio At Risk (PAR) projection to detect systemic default waves 25 days before bank bounces.",
   "main": "./dist/index.js",
